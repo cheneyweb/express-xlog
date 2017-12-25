@@ -1,0 +1,16 @@
+{
+  "name": "express-xlog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "cheneyxu",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^1.28.1",
+    "express": "^4.16.2",
+    "tracer": "^0.8.11"
+  }
+}
