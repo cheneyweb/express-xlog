@@ -1,7 +1,7 @@
 # express-xlog
 Node后端微服务框架，基于express-xlog中间件，异步日志
 
-[传送门：XServer官网文档](http://xserver.top)
+[传送门：XServer官网文档](http://www.xserver.top)
 
 框架目录结构
 >
