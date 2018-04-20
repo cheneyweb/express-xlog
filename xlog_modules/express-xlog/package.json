@@ -1,6 +1,6 @@
 {
   "name": "express-xlog",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Express路由中间件，异步日志",
   "main": "index.js",
   "scripts": {
