@@ -3,7 +3,7 @@ const log = require('tracer').colorConsole()
 module.exports = function (logConfig = {}, logProcess) {
     logConfig = logConfig || {}
     return function xlog(req, res, next) {
-        log.info(req.method, req.protocol + "://" + req.get('host') + req.originalUrl)
+        log.info(req.method, `${req.protocol}://${req.get('host')}${req.originalUrl}`)
         if (req.method != 'GET') {
             log.info('BODY', req.body)
         }
